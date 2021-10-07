@@ -4,9 +4,7 @@ fn main() {
     println!("array size is :{}", array.len());
 
     for item in array.iter().enumerate() {
-        let (i, x): (usize, &i32) = item;
-        println!("array[{}] = {}", i, x);
-
-
+        let (element, num): (usize, &i32) = item;
+        println!("array[{}] = {}", element, num);
     }
 }
