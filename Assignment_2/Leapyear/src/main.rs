@@ -5,21 +5,15 @@ fn main() {
         if years_arr[i] % 4 == 0 {
             if years_arr[i] % 100 == 0 {
                 if years_arr[i] % 400 == 0 {
-                    //println!("{:?} is leap year", years_arr[i]);
                     count = count + 1;
                 }
-                else {
-                    //println!("{:?} is not leap year", years_arr[i]);
-                }
+                else { }
             }
             else {
-                //println!("{:?} is leap year", years_arr[i]);
                 count = count + 1;
             }
         }
-        else {
-            //println!("{:?} is not leap year", years_arr[i]);
-        }
+        else { }
     }
     println!("Count of Leap Years is: {}", count);
 }
