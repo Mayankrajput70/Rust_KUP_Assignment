@@ -1,7 +1,17 @@
+/// Numbers Structure
 struct Numbers {
     num_first: u32,
     num_second: u32,
 }
+/// This main method print the complex numbers.
+///
+/// #Arguments
+///
+/// complex of the Structure Number.
+///
+/// #Return
+///
+/// Returns successfully print all.
 fn main() {
     let sum = Numbers {
         num_first: 100,
@@ -12,6 +22,15 @@ fn main() {
     println!("Multiplication of two numbers is: {}", sum.multiplication());
     println!("Divisionn of two numbers is: {}", sum.division());
 }
+/// This method calculate the two complex numbers.
+///
+/// #Arguments
+///
+/// complex of the Structure Number.
+///
+/// #Return
+///
+/// Returns result of two number.
 impl Numbers {
     fn addition(&self) -> u32 {
         self.num_first + self.num_second
