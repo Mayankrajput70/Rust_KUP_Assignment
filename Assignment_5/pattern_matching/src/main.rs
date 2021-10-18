@@ -13,7 +13,7 @@ enum Positions {
     Third(Coordinate, Coordinate),
     Fourth(Coordinate, Coordinate),
 }
-/// This method shows the Quadrant Position.
+/// Quadrant_positions method shows the Quadrant Position in Quadrant.
 ///
 /// #Arguments
 ///
@@ -47,7 +47,7 @@ fn quadrant_positions(point: (i32, i32)) -> Result<Positions, String> {
         _ => Err(String::from("Incorrect Positions")),
     }
 }
-/// This main method print the Coordinate numbers.
+/// Main method print the Coordinate numbers.
 ///
 /// #Arguments
 ///
