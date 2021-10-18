@@ -6,7 +6,7 @@ enum Ip {
     ClassC(String),
     ClassD(String),
 }
-/// This method shows the Ip format.
+/// List method shows the Ip format.
 ///
 /// #Arguments
 ///
@@ -36,7 +36,7 @@ fn list(position: (usize, usize, usize, usize)) -> Result<Ip, String> {
         _ => Err(String::from("Incorrect Number")),
     }
 }
-/// This main method print the Ip.
+/// Main method print the Ip address.
 ///
 /// #Arguments
 ///
