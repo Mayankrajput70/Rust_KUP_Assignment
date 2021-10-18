@@ -13,11 +13,11 @@ struct Score {
     maths: i32,
     science: i32,
 }
-/// This method find the average of score.
+/// Get_average method find the average of score.
 ///
 /// #Arguments
 ///
-/// get_average type object
+/// Get_average type object
 ///
 /// #Return
 ///
@@ -26,7 +26,7 @@ fn get_average(average: &Score) -> i32 {
     let avg: i32 = (average.hindi + average.english + average.maths + average.science) / 4;
     avg
 }
-/// This method compare the marks equal to 35 or not.
+/// Pass_student method compare the marks equal to 35 or not.
 ///
 /// #Arguments
 ///
@@ -60,7 +60,7 @@ fn pass_student(marks: &Score) -> [i32; 4] {
     }
     return value;
 }
-/// This main method print the details, marks and average.
+/// Main method print the details, marks and average.
 ///
 /// #Arguments
 ///
