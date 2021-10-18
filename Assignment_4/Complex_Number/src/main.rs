@@ -17,10 +17,10 @@ fn main() {
         num_first: 80,
         num_second: 20.0 as u32,
     };
-    println!("Addition of two numbers is {:?}i ", sum.addition());
-    println!("Subtraction of two numbers is: {:?}i", sum.subtract());
-    println!("Multiplication of two numbers is: {:?}i", sum.multiplication());
-    println!("Division of two numbers is: {:?}i", sum.division());
+    println!("Addition of two numbers is {:?}+i ", sum.addition());
+    println!("Subtraction of two numbers is: {:?}+i", sum.subtract());
+    println!("Multiplication of two numbers is: {:?}+i", sum.multiplication());
+    println!("Division of two numbers is: {:?}+i", sum.division());
 }
 /// Numbers method calculate the two complex numbers.
 ///
