@@ -14,13 +14,13 @@ struct Numbers {
 /// Returns successfully print all.
 fn main() {
     let sum = Numbers {
-        num_first: 100,
-        num_second: 50.0 as u32,
+        num_first: 80,
+        num_second: 20.0 as u32,
     };
-    println!("Addition of two numbers is {} ", sum.addition());
-    println!("Subtraction of two numbers is: {}", sum.subtract());
-    println!("Multiplication of two numbers is: {}", sum.multiplication());
-    println!("Divisionn of two numbers is: {}", sum.division());
+    println!("Addition of two numbers is {:?}i ", sum.addition());
+    println!("Subtraction of two numbers is: {:?}i", sum.subtract());
+    println!("Multiplication of two numbers is: {:?}i", sum.multiplication());
+    println!("Division of two numbers is: {:?}i", sum.division());
 }
 /// Numbers method calculate the two complex numbers.
 ///
@@ -33,6 +33,7 @@ fn main() {
 /// Returns result of two number.
 impl Numbers {
     fn addition(&self) -> u32 {
+        println!("First number and Second number is : {:?}, {:?}i", self.num_first, self.num_second);
         self.num_first + self.num_second
     }
     fn subtract(&self) -> u32 {
