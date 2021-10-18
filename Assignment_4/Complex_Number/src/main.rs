@@ -3,7 +3,7 @@ struct Numbers {
     num_first: u32,
     num_second: u32,
 }
-/// This main method print the complex numbers.
+/// Main method print the complex numbers.
 ///
 /// #Arguments
 ///
@@ -22,7 +22,7 @@ fn main() {
     println!("Multiplication of two numbers is: {}", sum.multiplication());
     println!("Divisionn of two numbers is: {}", sum.division());
 }
-/// This method calculate the two complex numbers.
+/// Numbers method calculate the two complex numbers.
 ///
 /// #Arguments
 ///
