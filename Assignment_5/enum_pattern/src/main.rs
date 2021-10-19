@@ -7,7 +7,7 @@ enum Ip {
     ClassD(String),
     ClassE(String),
 }
-/// check_ip_address which is used check the given ip_Address
+/// List function is used check the given ip_Address
 ///
 /// #Arguments
 ///
@@ -15,7 +15,7 @@ enum Ip {
 ///
 /// #Return
 ///
-/// Returns Correct Ip Position.
+/// No returns.
 fn list(position: (usize, usize, usize, usize)) {
     match position {
         (1..=127, 0..=255, 0..=255, 1..=254) => println!(
