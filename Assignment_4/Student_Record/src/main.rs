@@ -34,7 +34,7 @@ fn get_average(average: &Score) -> i32 {
 ///
 /// #Return
 ///
-/// No return
+/// No return.
 fn pass_student(marks: &Score) -> [i32; 4] {
     let mut value: [i32; 4] = [marks.hindi, marks.english, marks.maths, marks.science];
 
@@ -117,7 +117,7 @@ impl Score {
 ///
 /// #Return
 ///
-/// Returns print marks and average successfully.
+/// No return.
 fn main() {
     let mayank = Details {
         name: String::from("Mayank"),
